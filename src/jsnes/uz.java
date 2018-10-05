@@ -1,0 +1,21 @@
+package jsnes;
+
+final class uz extends afc {
+   // $FF: synthetic field
+   private adv a;
+
+   private uz(adv var1, byte var2) {
+      this.a = var1;
+      super();
+      this.a = 18;
+   }
+
+   public final void a() {
+      adv.F(this.a, adv.H(this.a));
+   }
+
+   // $FF: synthetic method
+   uz(adv var1) {
+      this(var1, (byte)0);
+   }
+}
